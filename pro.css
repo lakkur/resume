@@ -1,0 +1,142 @@
+.main{
+  border:2px solid red;
+  padding:2%;
+  display:flex;
+  flex-direction:row;
+}
+h2{
+  color:blue;
+}
+a{
+  color:green;
+  font-size:20px;
+  word-wrap:break-word;
+}
+.left{
+  border:2px solid green;
+  padding:2%;
+  margin:2%;
+  width:30%;
+  text-align:center;
+  font-size:30px;
+}
+#name{
+  color: blue;
+  font-size:30px;
+  text-align:center;
+}
+#phno{
+  color:black;
+  font-size:30px;
+  text-align: centre;
+}
+  .left img{
+    width:50%;
+    border-radius:50%;
+    border:2px solid green;
+    dispaly: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+.right{
+  border:2px solid blue;
+  padding:2%;
+  margin:2%;
+  width:70%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .main{
+    border:2px solid red;
+    padding:2%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+  }
+h2{
+  color:blue;
+}
+a{
+  color:green;
+  font-size:20px;
+  word-wrap:break-word;
+}
+.left{
+  border:2px solid green;
+  padding:2%;
+  margin:2%;
+  width:90%;
+  background-color: violet;
+  text-align:center;
+  font-size:30px;
+}
+#name{
+  color: blue;
+  font-size:30px;
+  text-align:center;
+}
+.table1{
+  width:90%;
+  overflow-x: auto;
+}
+  .left img{
+    width:50%;
+    border-radius:50%;
+    border:2px solid green;
+    dispaly: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+.right{
+  border:2px solid blue;
+  padding:2%;
+  margin:2%;
+  width:90%;
+  background-color: yellow;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+h2{
+  color:blue;
+}
+a{
+  color:green;
+  font-size:20px;
+  word-wrap:break-word;
+}
+.left{
+  border:2px solid green;
+  padding:2%;
+  margin:2%;
+  width:40%;
+  background-color: violet;
+  text-align:center;
+
+}
+#name{
+  color: blue;
+  font-size:30px;
+  text-align:center;
+}
+.table1{
+  width:90%;
+  overflow-x: auto;
+}
+  .left img{
+    width:50%;
+    border-radius:50%;
+    border:2px solid green;
+    dispaly: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+.right{
+  border:2px solid blue;
+  padding:2%;
+  margin:2%;
+  width:40%%;
+  background-color: pink;
+}
+}
